@@ -1,0 +1,36 @@
+V= number of vertices in the tournament.
+q = probability of an edge being backward edge
+F E = initial number of forward edges of largest SCC in graph
+B E = initial number of backward edges of largest SCC
+F E 2 = final number of forward edges of largest SCC
+B E 2 = final number of backward edges of largest SCC
+
+      V        q      F E    B E     F E 2  B E 2
+   1000    0.015   878477   9659    883461   1675
+   1000    0.005   884319   3124    886852    591
+    400     0.01   149852   1627    151152    327
+    400     0.06   142723   7916    149280   1359
+
+      V        q      F E    B E     F E 2  B E 2
+   1000    0.015   878536   9716    883519   1804
+   1000    0.005   884453   3054    886981    526
+    400     0.01   150127   1584    151392    319
+    400     0.06   143059   7031    148727   1363
+
+      V        q      F E    B E     F E 2  B E 2
+   1000    0.015   878504   9641    886475   1670
+   1000    0.005   884354   3046    886822    578
+    400     0.01   149747   1609    151044    312
+    400     0.06   142719   7917    149269   1367
+
+      V        q      F E    B E     F E 2  B E 2
+   1000    0.015   877986  10147    886152   1981
+   1000    0.005   884173   3216    886707    682
+    400     0.01   149692   1708    151152    327
+    400     0.06   142904   7894    149439   1359
+
+      V        q      F E    B E     F E 2  B E 2
+   1000    0.015   878419   9795    886402   1812
+   1000    0.005   884507   3054    886981    526
+    400     0.01   149783   1649    151392    319
+    400     0.06   142981   7847    149593   1235
